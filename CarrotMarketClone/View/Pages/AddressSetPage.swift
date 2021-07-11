@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct AddressSetPage: View {
+    
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        NavigationView{
+            VStack{
+                HStack {
+                    
+                }
+            
+                List{
+                    
+                }
+            }
+            
+//        }
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
+        
     }
+
 }
 
 struct AddressSetPage_Previews: PreviewProvider {

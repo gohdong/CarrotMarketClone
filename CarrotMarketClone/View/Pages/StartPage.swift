@@ -36,6 +36,9 @@ struct StartPage: View {
                 
             }
         }
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
+        
             
             
             
