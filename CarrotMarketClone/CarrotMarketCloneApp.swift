@@ -11,7 +11,7 @@ import SwiftUI
 struct CarrotMarketCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartPage()
         }
     }
 }

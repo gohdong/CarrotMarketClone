@@ -12,6 +12,7 @@
 		21B769B0269AA79300003F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B769AF269AA79300003F4E /* Assets.xcassets */; };
 		21B769B3269AA79300003F4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B769B2269AA79300003F4E /* Preview Assets.xcassets */; };
 		21B769BB269AA80300003F4E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B769BA269AA80300003F4E /* Launch Screen.storyboard */; };
+		21B769C3269AB1DE00003F4E /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B769C2269AB1DE00003F4E /* StartPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21B769B2269AA79300003F4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21B769B4269AA79300003F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21B769BA269AA80300003F4E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		21B769C2269AB1DE00003F4E /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		21B769AA269AA79000003F4E /* CarrotMarketClone */ = {
 			isa = PBXGroup;
 			children = (
+				21B769BF269AB0EC00003F4E /* Model */,
+				21B769BE269AB0E600003F4E /* View */,
 				21B769AB269AA79000003F4E /* CarrotMarketCloneApp.swift */,
-				21B769AD269AA79000003F4E /* ContentView.swift */,
 				21B769AF269AA79300003F4E /* Assets.xcassets */,
 				21B769B4269AA79300003F4E /* Info.plist */,
 				21B769B1269AA79300003F4E /* Preview Content */,
@@ -70,6 +73,38 @@
 				21B769B2269AA79300003F4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21B769BE269AB0E600003F4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21B769AD269AA79000003F4E /* ContentView.swift */,
+				21B769C1269AB1B500003F4E /* Pages */,
+				21B769C0269AB0FB00003F4E /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21B769BF269AB0EC00003F4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21B769C0269AB0FB00003F4E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		21B769C1269AB1B500003F4E /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				21B769C2269AB1DE00003F4E /* StartPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B769AE269AA79000003F4E /* ContentView.swift in Sources */,
+				21B769C3269AB1DE00003F4E /* StartPage.swift in Sources */,
 				21B769AC269AA79000003F4E /* CarrotMarketCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
