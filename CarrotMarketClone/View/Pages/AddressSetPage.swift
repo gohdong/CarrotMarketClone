@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct AddressSetPage: View {
-    
+    @State private var searchText = ""
     
     
     var body: some View {
 //        NavigationView{
             VStack{
                 HStack {
-                    
+                    Image(systemName: "arrow.left")
+                        .padding(.leading)
+                        
+                        
+                    SearchAddressRow(text: $searchText)
+                        .padding(.horizontal,10)
+                        
+                        
                 }
             
                 List{

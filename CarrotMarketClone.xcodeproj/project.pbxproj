@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		210AE48B269ADD6A008BF85C /* AddressSetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE48A269ADD6A008BF85C /* AddressSetPage.swift */; };
+		210AE48D269B4AD7008BF85C /* SearchAddressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE48C269B4AD7008BF85C /* SearchAddressRow.swift */; };
 		21B769AC269AA79000003F4E /* CarrotMarketCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B769AB269AA79000003F4E /* CarrotMarketCloneApp.swift */; };
 		21B769AE269AA79000003F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B769AD269AA79000003F4E /* ContentView.swift */; };
 		21B769B0269AA79300003F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B769AF269AA79300003F4E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		210AE48A269ADD6A008BF85C /* AddressSetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSetPage.swift; sourceTree = "<group>"; };
+		210AE48C269B4AD7008BF85C /* SearchAddressRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressRow.swift; sourceTree = "<group>"; };
 		21B769A8269AA79000003F4E /* CarrotMarketClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarketClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B769AB269AA79000003F4E /* CarrotMarketCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketCloneApp.swift; sourceTree = "<group>"; };
 		21B769AD269AA79000003F4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		21B769C0269AB0FB00003F4E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				210AE48C269B4AD7008BF85C /* SearchAddressRow.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				21B769AE269AA79000003F4E /* ContentView.swift in Sources */,
 				21B769C3269AB1DE00003F4E /* StartPage.swift in Sources */,
+				210AE48D269B4AD7008BF85C /* SearchAddressRow.swift in Sources */,
 				210AE48B269ADD6A008BF85C /* AddressSetPage.swift in Sources */,
 				21B769AC269AA79000003F4E /* CarrotMarketCloneApp.swift in Sources */,
 			);
