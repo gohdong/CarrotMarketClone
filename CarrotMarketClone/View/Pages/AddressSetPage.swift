@@ -47,8 +47,10 @@ struct AddressSetPage: View {
                     .background(Color("CarrotOrange"))
                     .cornerRadius(6)
                     Text("근처 동네")
+                        .font(.footnote)
                         .fontWeight(.bold)
                         .padding(.top)
+                    
                 }
                 
                 
