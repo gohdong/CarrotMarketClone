@@ -7,15 +7,15 @@
 
 import SwiftUI
 
+
+
 struct AddressSetPage: View {
     @State private var searchText = ""
     @Environment(\.presentationMode) var presentationMode
     var width = UIScreen.main.bounds.size.width
     var height = UIScreen.main.bounds.size.height
-    
-    
+
     var body: some View {
-//        NavigationView{
             VStack{
                 HStack {
                     Button(action: {
@@ -35,20 +35,32 @@ struct AddressSetPage: View {
                 }
                 .padding(.bottom)
                 
-                HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
-                    Image(systemName: "scope")
-                        .foregroundColor(.white)
-                    Text("현재 위치로 찾기")
-                        .foregroundColor(.white)
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                VStack(alignment:.leading){
+                    HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
+                        Image(systemName: "scope")
+                            .foregroundColor(.white)
+                        Text("현재 위치로 찾기")
+                            .foregroundColor(.white)
+                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    }
+                    .frame(width: width-32, height: 36)
+                    .background(Color("CarrotOrange"))
+                    .cornerRadius(6)
+                    Text("근처 동네")
+                        .fontWeight(.bold)
+                        .padding(.top)
                 }
-                .frame(width: width-32, height: 36)
-                .background(Color(.orange))
-                .cornerRadius(6)
+                
+                
+                    
+                   
+                   
                 
             
                 List{
-                    
+                    ForEach(jsonTwo(),id: \.self){item in
+                        Text(item.fullAddress)
+                    }
                 }
             }
             
